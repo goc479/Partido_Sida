@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDA - Un futuro con esperanza</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7f6;
+            color: #222;
+        }
+
+        header {
+            background: #183b56;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(
+                rgba(24,59,86,0.85),
+                rgba(24,59,86,0.85)
+            ),
+            url("https://images.unsplash.com/photo-1497366811353-6870744d04b2")
+            center/cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 30px;
+            background: #f4b942;
+            color: #183b56;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 35px;
+            margin-bottom: 25px;
+            color: #183b56;
+        }
+
+        .mensaje {
+            max-width: 800px;
+            margin: auto;
+            font-size: 19px;
+            line-height: 1.7;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #183b56;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #183b56;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SIDA</div>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#mensaje">Mensaje</a>
+        <a href="#propuestas">Ideas</a>
+    </nav>
+</header>
+
+<section class="hero" id="inicio">
+    <div>
+        <h1>Un futuro con esperanza</h1>
+        <p>
+            SIDA es un partido político ficticio creado para este proyecto.
+            Su mensaje principal es que la participación, el diálogo y la
+            cooperación pueden ayudar a construir una sociedad con más oportunidades.
+        </p>
+
+        <a href="#mensaje" class="boton">Conocer el proyecto</a>
+    </div>
+</section>
+
+<section id="mensaje">
+    <h2>Un mensaje de esperanza</h2>
+
+    <p class="mensaje">
+        El futuro no está escrito. Cada generación tiene la oportunidad de
+        mejorar aquello que no funciona y construir nuevas oportunidades.
+        La esperanza nace cuando las personas participan, escuchan opiniones
+        diferentes y trabajan juntas para encontrar soluciones.
+        SIDA defiende, dentro de esta propuesta ficticia, la importancia del
+        diálogo, la convivencia y la participación ciudadana.
+    </p>
+</section>
+
+<section id="propuestas">
+    <h2>Principios del proyecto</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🤝 Diálogo</h3>
+            <p>
+                Escuchar diferentes puntos de vista y buscar acuerdos
+                mediante el respeto.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Futuro</h3>
+            <p>
+                Pensar en las próximas generaciones y en cómo afrontar
+                los retos del futuro.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Participación</h3>
+            <p>
+                Fomentar que los ciudadanos conozcan los asuntos públicos
+                y participen de forma informada.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>SIDA · Proyecto político ficticio para uso educativo</p>
+    <p>La esperanza también se construye entre todos.</p>
+</footer>
+
+</body>
+</html>
